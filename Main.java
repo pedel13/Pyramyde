@@ -38,9 +38,10 @@ public class Main {
         int pyramidstop = 1;
         String pyramidstart = pyramidstone;
 
-        for (int i; pyramidhight >= 0; pyramidhight--);
+        for (int i; i >= pyramidhight; pyramidhight++){
             System.printel.out (pyramidstone);
             pyramidstone = pyramidstone + pyramidstart;
             piramidhight--;
+        }
     }
 }
