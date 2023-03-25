@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner (System.in);
 
         System.out.println("How high do you want the Pyramid tu be");
-        int pyramid = sc.nextInt();
+     6   int pyramid = sc.nextInt();
         sc.close();
         pyramide(pyramid);
     }  
@@ -29,20 +29,19 @@ public class Main {
         Scanner scan = new Scanner (System.in);
 
         System.out.println("How high do you want the Pyramid to be:");
-        int pyramidhight = scan.nextInt();
+        int pyramidHight = scan.nextInt();
         System.out.println("With waht do you want bild:");
-        String pyramidstone = scan.next();
+        String pyramidStone = scan.next();
         scan.close();
-        Pyramid (pyramidhight, pyramidstone);
+        pyramid (pyramidHight, pyramidStone);
     } 
-    public static void Pyramid (int pyramidhight, String pyramidstone){
+    public static void pyramid (int pyramidHight, String pyramidStone){
+        System.out.println();
+        String pyramidNeu = "";
 
-        int pyramidstop = 1;
-        String pyramidstart = pyramidstone;
-
-        for (int i = 0; i <= pyramidhight; i++){
-            System.printel.out (pyramidstone);
-            pyramidstone = pyramidstone + pyramidstart;
+        for (int i = 0; i < pyramidHight; i++){            
+            pyramidNeu = pyramidNeu + pyramidStone;
+            System.out.println(pyramidNeu);
         }
     }
 }
