@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Main {
+
  /*    public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
@@ -29,16 +30,16 @@ public class Main {
         System.out.println("How high do you want the Pyramid to be:");
         int pyramidhight = scan.nextInt();
         System.out.println("With waht do you want bild:");
-        String pramidstone = scan.next();
+        String pyramidstone = scan.next();
         scan.close();
-        Pyramid (pyramidhight, piramidstone);
+        Pyramid (pyramidhight, pyramidstone);
     } 
     public static void Pyramid (int pyramidhight, String pyramidstone){
 
         int pyramidstop = 1;
         String pyramidstart = pyramidstone;
 
-        for (int i; i >= pyramidhight; pyramidhight++){
+        for (int i = 0; i >= pyramidhight; i++){
             System.printel.out (pyramidstone);
             pyramidstone = pyramidstone + pyramidstart;
         }
