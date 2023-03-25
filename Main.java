@@ -1,4 +1,4 @@
-package PSyramide
+package Pyramide;
 import java.util.Scanner;
 public class Main {
 
