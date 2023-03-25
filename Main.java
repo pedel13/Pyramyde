@@ -41,7 +41,6 @@ public class Main {
         for (int i; i >= pyramidhight; pyramidhight++){
             System.printel.out (pyramidstone);
             pyramidstone = pyramidstone + pyramidstart;
-            piramidhight--;
         }
     }
 }
